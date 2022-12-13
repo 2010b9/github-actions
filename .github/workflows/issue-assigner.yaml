@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Auto-assign issue'
-      uses: pozil/auto-assign-issue@v1.0.3
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        assignes: 2010b9
+        uses: pozil/auto-assign-issue@v1.0.3
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          assignes: 2010b9
